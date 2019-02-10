@@ -8,7 +8,6 @@ $colorCurrent: #96b285;
 /***** 4 - MIXINS *****/
 @mixin imgHoverOpacity($valueIE, $value) {
     filter: alpha(opacity=$valueIE);
-    /* Needed for IE8 and old versions */
     opacity: $value;
 }
 
@@ -19,6 +18,18 @@ $colorCurrent: #96b285;
 @mixin imgFocus($value){
     transform: scale($value);
 }
+
+/***** 5 - INHERITANCE *****/
+%block-left{
+    display: block;
+    float: left;
+}
+
+%m0-p0{
+    margin: 0;
+    padding: 0;
+}
+
 
 /***** 3 - IMPORTS *****/
 @import 'general-style';

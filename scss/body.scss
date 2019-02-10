@@ -119,8 +119,7 @@
 
         &.header ul li {
             a.figure {
-                display: block;
-                float: left;
+                @extend %block-left;
 
                 img {
                     display: block;
@@ -243,8 +242,7 @@
             padding: 23px 0;
 
             img {
-                display: block;
-                float: left;
+                @extend %block-left;
             }
 
             div {
@@ -313,8 +311,7 @@
                     overflow: hidden;
 
                     span {
-                        display: block;
-                        float: left;
+                        @extend %block-left;
                     }
 
                     div {
@@ -369,8 +366,7 @@
                         }
 
                         background: url(../images/interface.png) no-repeat;
-                        display: block;
-                        float: left;
+                        @extend %block-left;
                         height: 19px;
                         width: 320px;
 
@@ -483,8 +479,7 @@
 
                         ul {
                             list-style: none;
-                            margin: 0;
-                            padding: 0;
+                            @extend %m0-p0;
                         }
                     }
                 }
