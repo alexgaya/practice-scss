@@ -6,7 +6,7 @@ Compiled with: node-sass 4.11.0
 - [x] Variables
 - [x] Nesting
 - [x] Partials/import
-- [ ] Mixins
+- [x] Mixins
 - [ ] Inheritance
 - [ ] Operators
 - [ ] (Extra) Parent Selector
