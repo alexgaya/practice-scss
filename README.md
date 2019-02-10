@@ -7,7 +7,7 @@ Compiled with: node-sass 4.11.0
 - [x] Nesting
 - [x] Partials/import
 - [x] Mixins
-- [ ] Inheritance
+- [x] Inheritance
 - [ ] Operators
 - [ ] (Extra) Parent Selector
 - [x] Comments
