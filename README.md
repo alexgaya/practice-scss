@@ -8,6 +8,6 @@ Compiled with: node-sass 4.11.0
 - [x] Partials/import
 - [x] Mixins
 - [x] Inheritance
-- [ ] Operators
-- [ ] (Extra) Parent Selector
+- [x] Operators
+- [x] (Extra) Parent Selector
 - [x] Comments
