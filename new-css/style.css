@@ -241,7 +241,8 @@ p {
     #body div.body ul li {
       float: left;
       margin: 0 0 0 20px;
-      width: 200px; }
+      /***** 6 - OPERATORS ******/
+      width: 23.25581%; }
       #body div.body ul li:first-child {
         margin: 0; }
   #body div#content ul.section li:first-child,
@@ -460,7 +461,8 @@ p {
       float: left;
       height: 134px;
       padding: 20px 20px;
-      width: 180px; }
+      /***** 6 - OPERATORS ******/
+      width: 20%; }
       #footer div div:first-child {
         border: none; }
       #footer div div h1 {

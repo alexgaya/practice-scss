@@ -16,7 +16,8 @@
             float: left;
             height: 134px;
             padding: 20px 20px;
-            width: 180px;
+            /***** 6 - OPERATORS ******/
+            width: 180px / 900px * 100%;
 
             &:first-child {
                 border: none;

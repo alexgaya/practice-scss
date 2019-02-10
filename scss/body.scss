@@ -201,7 +201,8 @@
             li {
                 float: left;
                 margin: 0 0 0 20px;
-                width: 200px;
+                /***** 6 - OPERATORS ******/
+                width: 200px / 860px * 100%;
 
                 &:first-child {
                     margin: 0;
