@@ -5,7 +5,22 @@ $iconPadding: 0 0 0 30px;
 $bgColor: #356618;
 $colorCurrent: #96b285;
 
-/**** 2 - IMPORTS *****/
+/***** 4 - MIXINS *****/
+@mixin imgHoverOpacity($valueIE, $value) {
+    filter: alpha(opacity=$valueIE);
+    /* Needed for IE8 and old versions */
+    opacity: $value;
+}
+
+@mixin imgRotate($value){
+    transform: rotate($value+deg);
+}
+
+@mixin imgFocus($value){
+    transform: scale($value);
+}
+
+/***** 3 - IMPORTS *****/
 @import 'general-style';
 @import 'header';
 @import 'body';
