@@ -1,6 +1,6 @@
 body {
     background: url(../images/bg-body.jpg) repeat;
-    color: #356618;
+    color: $bgColor;
     font-family: $font1;
     font-size: 14px;
     margin: 0;
@@ -21,7 +21,7 @@ p {
     text-align: justify;
 
     a {
-        color: #356618;
+        color: $bgColor;
 
         &:hover {
             color: #66a143;
@@ -30,7 +30,7 @@ p {
 }
 
 #page {
-    background: #356618;
+    background: $bgColor;
     margin: 0 auto;
     padding: 0 20px;
     width: 900px;

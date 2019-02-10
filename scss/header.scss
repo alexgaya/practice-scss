@@ -37,12 +37,12 @@
             }
 
             &.current>a {
-                background: #96b285;
-                color: #356618;
+                background: $colorCurrent;
+                color: $bgColor;
 
                 &:hover {
-                    background: #96b285;
-                    color: #356618;
+                    background: $colorCurrent;
+                    color: $bgColor;
                 }
             }
         }
@@ -50,12 +50,12 @@
 
     ul li {
         ul li.current a {
-            background: #96b285;
-            color: #356618;
+            background: $colorCurrent;
+            color: $bgColor;
 
             &:hover {
-                background: #96b285;
-                color: #356618;
+                background: $colorCurrent;
+                color: $bgColor;
             }
         }
 

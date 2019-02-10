@@ -96,7 +96,7 @@
             }
 
             ul {
-                background: #356618;
+                background: $bgColor;
                 list-style: none;
                 margin: 0;
                 overflow: hidden;
@@ -438,7 +438,7 @@
 
             div {
                 &#article {
-                    border-right: 1px solid #96b285;
+                    border-right: 1px solid $colorCurrent;
                     float: left;
                     padding: 0 20px 0 0;
                     width: 580px;
@@ -477,7 +477,7 @@
                     }
 
                     div {
-                        border-top: 1px solid #96b285;
+                        border-top: 1px solid $colorCurrent;
                         padding: 20px 0;
 
                         &:first-child {
